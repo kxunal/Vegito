@@ -12,7 +12,7 @@ START_BUTTON = [
         Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/BOT_DEVELOPING")
     ],
     [
-        Button.url("• ʀᴇᴘᴏ •", "𝗟𝘂𝗻𝗱 𝗟𝗲𝗹𝗲 𝗠𝗲𝗿𝗮")
+        Button.answer("• ʀᴇᴘᴏ •", "𝗟𝘂𝗻𝗱 𝗟𝗲𝗹𝗲 𝗠𝗲𝗿𝗮")
     ]
 ]
 
