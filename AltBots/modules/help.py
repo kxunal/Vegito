@@ -14,8 +14,8 @@ HELP_BUTTON = [
       Button.inline("• ᴇxᴛʀᴀ •", data="extra")
     ],
     [
-      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/BOT_DEVELOPING"),
-      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/BOT_DEVELOPING")
+      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/DEVELOPERSOFBOT"),
+      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DEVELOPERSOFBOT")
     ]
   ]
 
@@ -34,7 +34,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://graph.org/file/49c7524b5ffeab0c95cfb.jpg",
+              "https://graph.org/file/6d45bcba73ae40ebbbd23.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -136,8 +136,8 @@ async def helpback(event):
                 Button.inline("• ᴇxᴛʀᴀ •", data="extra")
               ],
               [
-                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/BOT_DEVELOPING"),
-                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/BOT_DEVELOPING")
+                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/DEVELOPERSOFBOT"),
+                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DEVELOPERSOFBOT")
               ]
             ]
           )
