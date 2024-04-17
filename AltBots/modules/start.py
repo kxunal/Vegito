@@ -8,8 +8,8 @@ START_BUTTON = [
         Button.inline("• ᴄᴏᴍᴍᴀɴᴅs •", data="help_back")
     ],
     [
-        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/DEVELOPERSOFBOT"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DEVELOPERSOFBOT")
+        Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/CHATTING_HUB8"),
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/CHATTING_HUB8")
     ],
     [
         Button.url("• ʀᴇᴘᴏ •", "https://github.com/ITACHI9264/Vegito/tree/main")
