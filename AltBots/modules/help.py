@@ -14,8 +14,8 @@ HELP_BUTTON = [
       Button.inline("• ᴇxᴛʀᴀ •", data="extra")
     ],
     [
-      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/DEVELOPERSOFBOT"),
-      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DEVELOPERSOFBOT")
+      Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/CHATTING_HUB8"),
+      Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/CHATTING_HUB8")
     ]
   ]
 
@@ -103,7 +103,7 @@ spam_msg = f"""
   2) {hl}spam <count> <replying any message>
 
 𝗣𝗼𝗿𝗻𝗦𝗽𝗮𝗺: **ᴘᴏʀᴍᴏɢʀᴀᴘʜʏ ꜱᴘᴀᴍ.**
-  1) {hl}pspam <count>
+  1) {hl}cspam <count>
 
 𝗛𝗮𝗻𝗴: **ꜱᴘᴀᴍꜱ ʜᴀɴɢɪɴɢ ᴍᴇꜱꜱᴀɢᴇ ꜰᴏʀ ɢɪᴠᴇɴ ᴄᴏᴜɴᴛᴇʀ.**
   1) {hl}hang <counter>
@@ -136,8 +136,8 @@ async def helpback(event):
                 Button.inline("• ᴇxᴛʀᴀ •", data="extra")
               ],
               [
-                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/DEVELOPERSOFBOT"),
-                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/DEVELOPERSOFBOT")
+                Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/CHATTING_HUB8"),
+                Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/CHATTING_HUB8")
               ]
             ]
           )
