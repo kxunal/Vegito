@@ -103,7 +103,7 @@ spam_msg = f"""
   2) {hl}spam <count> <replying any message>
 
 𝗣𝗼𝗿𝗻𝗦𝗽𝗮𝗺: **ᴘᴏʀᴍᴏɢʀᴀᴘʜʏ ꜱᴘᴀᴍ.**
-  1) {hl}cspam <count>
+  1) {hl}pspam <count>
 
 𝗛𝗮𝗻𝗴: **ꜱᴘᴀᴍꜱ ʜᴀɴɢɪɴɢ ᴍᴇꜱꜱᴀɢᴇ ꜰᴏʀ ɢɪᴠᴇɴ ᴄᴏᴜɴᴛᴇʀ.**
   1) {hl}hang <counter>
