@@ -13,7 +13,7 @@ logging.basicConfig(format='[%(levelname) 5s/%(asctime)s] %(name)s: %(message)s'
 API_ID = 18136872
 API_HASH = "312d861b78efcd1b02183b2ab52a83a4"
 CMD_HNDLR = getenv("CMD_HNDLR", default=".")
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", None)
+HEROKU_APP_NAME = getenv("unknown", None)
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", None)
 
 BOT_TOKEN = getenv("6429312094:AAEOqUf63TKhlhbQXMK351aMeT7T0Th58Ck", default=None)
