@@ -1,10 +1,10 @@
-FROM debian:latest
-
-RUN apt update && apt upgrade -y
-RUN apt install git curl python3-pip -y
-RUN pip3 install -U pip
-RUN mkdir /app/
+FROM nikolaik/python-nodejs:python3.10-nodejs19
+RUN apt-get update -y && apt-get upgrade -y \
+    && apt-get install -y --no-install-recommends ffmpeg \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
 WORKDIR /app/
 COPY . /app/
-RUN pip3 install -U -r requirements.txt
-CMD python3 main.py
+RUN pip3 install --no-cache-dir --upgrade --requirement requirements.txt
+RUN chmod +x start.sh
+CMD ["bash", "start.sh"]
